@@ -7,6 +7,7 @@ package While;
 
 import java.util.Scanner;
 
+
 /**
  *
  * @author PIRUZ
@@ -41,17 +42,14 @@ public class Exercise15 {
                 countAnswers++;
             }
 
-
         }
         System.out.println("Outside while loop --- Total correct answers: " + countAnswers);
+
         int totalQ = 5;
-        int percentage = (totalQ / countAnswers) * 100;
-        
+        int percentage = ((countAnswers * 100) / totalQ);
+//       
 
         System.out.println("Outside while loop --- Total percentage of correct answers is: " + percentage + "%");
 
     }
 }
-
-
-
